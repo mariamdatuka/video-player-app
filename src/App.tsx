@@ -1,14 +1,12 @@
 import React from 'react';
+import Video from './components/Video';
 
 
 function App() {
   return (
   
     <>
-    <video controls>
-      <source src='/Trailer720.mp4'>
-      </source>
-    </video>
+   <Video/>
     </>
   );
 }
